@@ -4,7 +4,7 @@ import SwiftUI
 
 struct Takhfif_OptionsBar : View {
     
-    @State var showCodeTextField: Bool = true
+    @State var showCodeTextField: Bool = false
     @State var isDisabled: Bool = true
     
 
