@@ -22,7 +22,6 @@
 		F59DC90922DD00EE002EC408 /* DestinationMapAndPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DC90822DD00EE002EC408 /* DestinationMapAndPin.swift */; };
 		F59DC90B22DD00FF002EC408 /* DestinationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DC90A22DD00FF002EC408 /* DestinationMap.swift */; };
 		F5A57E0622E0AEE80041BEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9CA4022CA367300C3A646 /* LaunchScreen.storyboard */; };
-		F5B97F6922E898060091B9D5 /* CustomTextField copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B97F6822E898060091B9D5 /* CustomTextField copy.swift */; };
 		F5BBB32122CDB49E00FA98F6 /* GreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */; };
 		F5BEDA1D22CB27B0003A938C /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEDA1C22CB27B0003A938C /* TopBar.swift */; };
 		F5BEDA1F22CB2842003A938C /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEDA1E22CB2842003A938C /* BottomBar.swift */; };
@@ -37,6 +36,7 @@
 		F5C9CA5D22CA375400C3A646 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9CA5C22CA375400C3A646 /* CurrentLocation.swift */; };
 		F5C9FD6822E3AD1B00F0D6FD /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9FD6722E3AD1B00F0D6FD /* Origin.swift */; };
 		F5CE396822CC9FC9001C1E12 /* Takhfif_OptionsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */; };
+		F5D2EBB622E83CDD001095E6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2EBB522E83CDD001095E6 /* CustomTextField.swift */; };
 		F5FED76922E772A800EFCF1F /* TopBar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FED76822E772A800EFCF1F /* TopBar3.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,6 @@
 		F59DC90622DCEA50002EC408 /* OriginPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginPin.swift; sourceTree = "<group>"; };
 		F59DC90822DD00EE002EC408 /* DestinationMapAndPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMapAndPin.swift; sourceTree = "<group>"; };
 		F59DC90A22DD00FF002EC408 /* DestinationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMap.swift; sourceTree = "<group>"; };
-		F5B97F6822E898060091B9D5 /* CustomTextField copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomTextField copy.swift"; sourceTree = "<group>"; };
 		F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButton.swift; sourceTree = "<group>"; };
 		F5BE5CC622E7D460009EC587 /* iransans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iransans.ttf; sourceTree = "<group>"; };
 		F5BEDA1C22CB27B0003A938C /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		F5C9CA5C22CA375400C3A646 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
 		F5C9FD6722E3AD1B00F0D6FD /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Origin.swift; path = "../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Select Origin/Origin.swift"; sourceTree = "<group>"; };
 		F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Takhfif_OptionsBar.swift; sourceTree = "<group>"; };
+		F5D2EBB522E83CDD001095E6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = ../../../../../../System/Volumes/Data/Users/reza/Downloads/Snapp_Challenge/Snapp_Challenge/Cost/CustomTextField.swift; sourceTree = "<group>"; };
 		F5FED76822E772A800EFCF1F /* TopBar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopBar3.swift; path = ../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Cost/TopBar3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,8 +119,8 @@
 				F5BEDA2A22CBA555003A938C /* SelectKindBar.swift */,
 				F56F816422E7D8300071B09E /* MapView.swift */,
 				F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */,
+				F5D2EBB522E83CDD001095E6 /* CustomTextField.swift */,
 				F5FED76822E772A800EFCF1F /* TopBar3.swift */,
-				F5B97F6822E898060091B9D5 /* CustomTextField copy.swift */,
 				F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */,
 				F56BFAD922CCA30500C09EDF /* DarkhastSnappBar.swift */,
 				F56BFADD22CCA71400C09EDF /* CostBottom.swift */,
@@ -258,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D2EBB622E83CDD001095E6 /* CustomTextField.swift in Sources */,
 				F5C9CA5D22CA375400C3A646 /* CurrentLocation.swift in Sources */,
 				F5FED76922E772A800EFCF1F /* TopBar3.swift in Sources */,
 				F51B4ED922CFE0D500D1247E /* OriginMap.swift in Sources */,
@@ -274,7 +275,6 @@
 				F5C9CA5622CA36B800C3A646 /* SelectOrigin.swift in Sources */,
 				F5C9CA3822CA367100C3A646 /* SceneDelegate.swift in Sources */,
 				F5BEDA1D22CB27B0003A938C /* TopBar.swift in Sources */,
-				F5B97F6922E898060091B9D5 /* CustomTextField copy.swift in Sources */,
 				F5C9FD6822E3AD1B00F0D6FD /* Origin.swift in Sources */,
 				F597D15822CFBFBC00825048 /* DestinationPin.swift in Sources */,
 				F5BEDA2B22CBA555003A938C /* SelectKindBar.swift in Sources */,
