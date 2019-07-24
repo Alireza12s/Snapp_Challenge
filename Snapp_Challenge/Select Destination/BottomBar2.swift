@@ -19,7 +19,7 @@ struct BottomBar2 : View {
             Spacer()
             ZStack{
                 Rectangle().frame(width: 350, height: 100, alignment: .bottom)
-                    .foregroundColor(.white)
+                    .foregroundColor(.gray)
                     .cornerRadius(25)
                     .shadow(radius: 5)
                     VStack{

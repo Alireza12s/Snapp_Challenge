@@ -41,6 +41,8 @@ struct GreenButton : View {
 struct GreenButton_Previews : PreviewProvider {
     static var previews: some View {
         GreenButton().environmentObject(Datas())
+        .environment(\.colorScheme, .dark)
+
     }
 }
 #endif

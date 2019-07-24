@@ -20,6 +20,12 @@ struct FavouritesBar : View {
     
     var body: some View {
         
+        
+        
+        ZStack{
+            Rectangle()
+            .foregroundColor(.gray)
+            .frame(width: UIScreen.main.bounds.width  , height: 30)
 
         ScrollView(.horizontal, showsIndicators: true) {
             HStack {
@@ -31,14 +37,13 @@ struct FavouritesBar : View {
                     FavouriteItem(text: Datas.favourites[item]["name"] as! String)
                     }
                 }
-            }.frame(height: 30)
+            }.offset(y: -2)
                
         }.offset(y: 5)
-
-       
+        .padding()
+        .frame(height: 35)
         
-        
-        
+        }
     }
 }
 
@@ -51,6 +56,8 @@ struct FavouritesBar_Previews : PreviewProvider {
     static var previews: some View {
         FavouritesBar()
             .environmentObject(Datas())
+        .environment(\.colorScheme, .dark)
+
     }
 }
 #endif

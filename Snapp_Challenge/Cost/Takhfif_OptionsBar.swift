@@ -4,7 +4,7 @@ import SwiftUI
 
 struct Takhfif_OptionsBar : View {
     
-    @State var showCodeTextField: Bool = false
+    @State var showCodeTextField: Bool = true
     @State var isDisabled: Bool = true
     
 
@@ -15,7 +15,7 @@ struct Takhfif_OptionsBar : View {
     var body: some View {
         ZStack{
             Rectangle()
-            .foregroundColor(.white)
+            .foregroundColor(.gray)
             VStack{
         HStack{
             Button(action: {
@@ -32,10 +32,12 @@ struct Takhfif_OptionsBar : View {
                 .foregroundColor(.gray)
             Text(verbatim: "\(self.data.Cost)".convertEngNumToPersianNum())
             .animation(.spring())
+            .foregroundColor(.black)
             Spacer()
             Divider()
             Button(action: {
-                self.showCodeTextField = !self.showCodeTextField
+                self.showCodeTextField.toggle()
+                self.data.check.toggle()
                 
             }){
                 Text(verbatim: "کد تخفیف؟")
@@ -57,7 +59,7 @@ struct Takhfif_OptionsBar : View {
                     }
                     self.data.code = ""
                     self.data.codeDidUsed = true
-                    
+                    self.data.check.toggle()
                 }){
                     Text(verbatim: "ثبت")
                     .foregroundColor(.green)
@@ -68,7 +70,9 @@ struct Takhfif_OptionsBar : View {
                 
                 Spacer()
                 
-                TextField("کد تخفیف را وارد کنید", text: self.$data.code)
+//                TextField("کد تخفیف را وارد کنید", text: self.$data.code)
+                CustomTextField(text: self.$data.code, isFirstResponder: self.data.check)
+                
                 
                 
                 
@@ -127,6 +131,8 @@ struct Takhfif_OptionsBar_Previews : PreviewProvider {
     static var previews: some View {
         Takhfif_OptionsBar()
         .environmentObject(Datas())
+        .environment(\.colorScheme, .dark)
+
     }
 }
 #endif

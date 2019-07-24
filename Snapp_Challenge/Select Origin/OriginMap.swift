@@ -9,11 +9,13 @@ struct OriginMap : UIViewRepresentable {
     
     @EnvironmentObject var data: Datas
     
-
     
-    func makeUIView(context: UIViewRepresentableContext<OriginMap>) -> MKMapView{
+    
+     func makeUIView(context: UIViewRepresentableContext<OriginMap>) -> MKMapView{
         let mapView = MKMapView()
+        
         mapView.delegate = context.coordinator
+        
 
         return mapView
     }
@@ -22,11 +24,21 @@ struct OriginMap : UIViewRepresentable {
         Coordinator(self)
     }
     
+
     
-    func updateUIView(_ mapView: MKMapView, context: Context) {
+    
+     func updateUIView(_ mapView: MKMapView, context: Context) {
         let locationManager = CLLocationManager()
-//        self.data.currentLocation = self.origin
         
+        func zoomOnCurrentLocation() -> Void {
+            let locationManager = CLLocationManager()
+
+            let span = MKCoordinateSpan(latitudeDelta: 0.002, longitudeDelta: 0.002)
+
+            let region = MKCoordinateRegion(center: locationManager.location!.coordinate, span: span)
+            mapView.setRegion(region, animated: true)
+        }
+
         mapView.showsUserLocation = true
         
         locationManager.requestAlwaysAuthorization()
@@ -58,6 +70,7 @@ struct OriginMap : UIViewRepresentable {
         var mpView: OriginMap
         init(_ mpView: OriginMap) {
             self.mpView = mpView
+            
         }
         
         func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {

@@ -5,9 +5,9 @@ import SwiftUI
 struct TopBar : View {
     @EnvironmentObject var data: Datas
     
-
+    
     var body: some View {
-
+        
         HStack {
             
             Button(action: {
@@ -18,9 +18,9 @@ struct TopBar : View {
             } 
             Spacer()
             Text(verbatim: "کجا هستید؟")
-            .bold()
-            .font(.custom("iransans", size: 20))
-
+                .bold()
+                .font(.custom("iransans", size: 20))
+            
             
             
             Spacer()
@@ -32,7 +32,8 @@ struct TopBar : View {
             }
             
         }.padding()
-           
+            .foregroundColor(.gray)
+            
             
             .frame(width: UIScreen.main.bounds.width, height: 50)
         
@@ -42,8 +43,15 @@ struct TopBar : View {
 #if DEBUG
 struct TopBar_Previews : PreviewProvider {
     static var previews: some View {
-        TopBar()
-            .environmentObject(Datas())
+        Group{
+            TopBar()
+                .environmentObject(Datas())
+                .environment(\.colorScheme, .light)
+
+            TopBar()
+                .environmentObject(Datas())
+                .environment(\.colorScheme, .dark)
+        }
     }
 }
 #endif

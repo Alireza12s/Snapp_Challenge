@@ -137,6 +137,7 @@ struct SelectKindBar_Previews : PreviewProvider {
     static var previews: some View {
         SelectKindBar(color1: Color.black,color2: Color.gray,color3:  Color.gray, color4: Color.gray)
             .environmentObject(Datas())
+
     }
 }
 #endif

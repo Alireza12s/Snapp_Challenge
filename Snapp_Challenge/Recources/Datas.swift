@@ -23,6 +23,8 @@ final class Datas: BindableObject {
     
     static var destinationIsSelected = false
     
+    var check = false { didSet{willChange.send(())}}
+    
     var favourite = 0 { didSet { willChange.send(())}}
     
     var Cost = 145000 { didSet { willChange.send(())}}

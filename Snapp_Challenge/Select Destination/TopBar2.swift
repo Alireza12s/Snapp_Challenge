@@ -39,6 +39,7 @@ struct TopBar2 : View {
                 
             }
             .padding()
+            .foregroundColor(.gray)
             
             
         }
@@ -48,8 +49,17 @@ struct TopBar2 : View {
 #if DEBUG
 struct TopBar2_Previews : PreviewProvider {
     static var previews: some View {
-        TopBar2(onDismiss: .constant {})
-            .environmentObject(Datas())
+        
+        Group {
+            TopBar2(onDismiss: .constant {})
+                .environmentObject(Datas())
+                .environment(\.colorScheme, .dark)
+
+            
+            TopBar2(onDismiss: .constant {})
+                .environmentObject(Datas())
+                .environment(\.colorScheme, .light)
+        }
     }
 }
 #endif
