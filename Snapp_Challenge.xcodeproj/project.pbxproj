@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F515E37322E09B4000B0BBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F515E37222E09B4000B0BBBD /* Assets.xcassets */; };
+		F518313622E5051D00ED7363 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518313522E5051D00ED7363 /* Destination.swift */; };
+		F51B4ED922CFE0D500D1247E /* OriginMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B4ED822CFE0D500D1247E /* OriginMap.swift */; };
+		F554625222DE6DBB00B9AD87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9CA3E22CA367300C3A646 /* Preview Assets.xcassets */; };
+		F55595D722CD1035004589E1 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55595D622CD1035004589E1 /* Datas.swift */; };
+		F56BFADA22CCA30500C09EDF /* DarkhastSnappBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BFAD922CCA30500C09EDF /* DarkhastSnappBar.swift */; };
+		F56BFADC22CCA67400C09EDF /* TravelCostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BFADB22CCA67400C09EDF /* TravelCostPage.swift */; };
+		F56BFADE22CCA71400C09EDF /* CostBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BFADD22CCA71400C09EDF /* CostBottom.swift */; };
+		F56F816522E7D8300071B09E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F816422E7D8300071B09E /* MapView.swift */; };
+		F593781022E43590007B2024 /* OriginMap&Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F593780F22E43590007B2024 /* OriginMap&Pin.swift */; };
+		F597D15822CFBFBC00825048 /* DestinationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F597D15722CFBFBC00825048 /* DestinationPin.swift */; };
+		F59DC90722DCEA50002EC408 /* OriginPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DC90622DCEA50002EC408 /* OriginPin.swift */; };
+		F59DC90922DD00EE002EC408 /* DestinationMapAndPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DC90822DD00EE002EC408 /* DestinationMapAndPin.swift */; };
+		F59DC90B22DD00FF002EC408 /* DestinationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DC90A22DD00FF002EC408 /* DestinationMap.swift */; };
+		F5A57E0622E0AEE80041BEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9CA4022CA367300C3A646 /* LaunchScreen.storyboard */; };
+		F5BBB32122CDB49E00FA98F6 /* GreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */; };
+		F5BEDA1D22CB27B0003A938C /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEDA1C22CB27B0003A938C /* TopBar.swift */; };
+		F5BEDA1F22CB2842003A938C /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEDA1E22CB2842003A938C /* BottomBar.swift */; };
+		F5BEDA2B22CBA555003A938C /* SelectKindBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEDA2A22CBA555003A938C /* SelectKindBar.swift */; };
+		F5C3662722CFABE100E39688 /* BottomBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3662622CFABE100E39688 /* BottomBar2.swift */; };
+		F5C3662922CFAD7000E39688 /* FavouritesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3662822CFAD7000E39688 /* FavouritesBar.swift */; };
+		F5C3662D22CFB44F00E39688 /* FavouriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3662C22CFB44F00E39688 /* FavouriteItem.swift */; };
+		F5C3662F22CFB5EF00E39688 /* TopBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3662E22CFB5EF00E39688 /* TopBar2.swift */; };
+		F5C9CA3622CA367100C3A646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9CA3522CA367100C3A646 /* AppDelegate.swift */; };
+		F5C9CA3822CA367100C3A646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9CA3722CA367100C3A646 /* SceneDelegate.swift */; };
+		F5C9CA5622CA36B800C3A646 /* SelectOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9CA5422CA36B800C3A646 /* SelectOrigin.swift */; };
+		F5C9CA5D22CA375400C3A646 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9CA5C22CA375400C3A646 /* CurrentLocation.swift */; };
+		F5C9FD6822E3AD1B00F0D6FD /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9FD6722E3AD1B00F0D6FD /* Origin.swift */; };
+		F5CE396822CC9FC9001C1E12 /* Takhfif_OptionsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */; };
+		F5FED76922E772A800EFCF1F /* TopBar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FED76822E772A800EFCF1F /* TopBar3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F515E37222E09B4000B0BBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F518313522E5051D00ED7363 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = "../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Select Destination/Destination.swift"; sourceTree = "<group>"; };
+		F51B4ED822CFE0D500D1247E /* OriginMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginMap.swift; sourceTree = "<group>"; };
+		F55595D622CD1035004589E1 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		F56BFAD922CCA30500C09EDF /* DarkhastSnappBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkhastSnappBar.swift; sourceTree = "<group>"; };
+		F56BFADB22CCA67400C09EDF /* TravelCostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCostPage.swift; sourceTree = "<group>"; };
+		F56BFADD22CCA71400C09EDF /* CostBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostBottom.swift; sourceTree = "<group>"; };
+		F56F816422E7D8300071B09E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Cost/MapView.swift; sourceTree = "<group>"; };
+		F593780F22E43590007B2024 /* OriginMap&Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OriginMap&Pin.swift"; path = "../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Select Origin/OriginMap&Pin.swift"; sourceTree = "<group>"; };
+		F597D15722CFBFBC00825048 /* DestinationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPin.swift; sourceTree = "<group>"; };
+		F59DC90622DCEA50002EC408 /* OriginPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginPin.swift; sourceTree = "<group>"; };
+		F59DC90822DD00EE002EC408 /* DestinationMapAndPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMapAndPin.swift; sourceTree = "<group>"; };
+		F59DC90A22DD00FF002EC408 /* DestinationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMap.swift; sourceTree = "<group>"; };
+		F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButton.swift; sourceTree = "<group>"; };
+		F5BE5CC622E7D460009EC587 /* iransans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iransans.ttf; sourceTree = "<group>"; };
+		F5BEDA1C22CB27B0003A938C /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		F5BEDA1E22CB2842003A938C /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		F5BEDA2A22CBA555003A938C /* SelectKindBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectKindBar.swift; sourceTree = "<group>"; };
+		F5C3662622CFABE100E39688 /* BottomBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar2.swift; sourceTree = "<group>"; };
+		F5C3662822CFAD7000E39688 /* FavouritesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesBar.swift; sourceTree = "<group>"; };
+		F5C3662C22CFB44F00E39688 /* FavouriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteItem.swift; sourceTree = "<group>"; };
+		F5C3662E22CFB5EF00E39688 /* TopBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar2.swift; sourceTree = "<group>"; };
+		F5C9CA3222CA367100C3A646 /* Snapp_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapp_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C9CA3522CA367100C3A646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C9CA3722CA367100C3A646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5C9CA3E22CA367300C3A646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5C9CA4122CA367300C3A646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C9CA4322CA367300C3A646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C9CA5422CA36B800C3A646 /* SelectOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOrigin.swift; sourceTree = "<group>"; };
+		F5C9CA5C22CA375400C3A646 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
+		F5C9FD6722E3AD1B00F0D6FD /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Origin.swift; path = "../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Select Origin/Origin.swift"; sourceTree = "<group>"; };
+		F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Takhfif_OptionsBar.swift; sourceTree = "<group>"; };
+		F5FED76822E772A800EFCF1F /* TopBar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopBar3.swift; path = ../../../../../../System/Volumes/Data/Users/reza/Desktop/Snapp_Challenge/Snapp_Challenge/Cost/TopBar3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C9CA2F22CA367100C3A646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55595D822CD10E7004589E1 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				F55595D622CD1035004589E1 /* Datas.swift */,
+				F5BE5CC622E7D460009EC587 /* iransans.ttf */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		F5BEDA2022CB3AE1003A938C /* Select Destination */ = {
+			isa = PBXGroup;
+			children = (
+				F518313522E5051D00ED7363 /* Destination.swift */,
+				F59DC90822DD00EE002EC408 /* DestinationMapAndPin.swift */,
+				F59DC90A22DD00FF002EC408 /* DestinationMap.swift */,
+				F5C3662622CFABE100E39688 /* BottomBar2.swift */,
+				F5C3662822CFAD7000E39688 /* FavouritesBar.swift */,
+				F5C3662C22CFB44F00E39688 /* FavouriteItem.swift */,
+				F5C3662E22CFB5EF00E39688 /* TopBar2.swift */,
+				F597D15722CFBFBC00825048 /* DestinationPin.swift */,
+			);
+			path = "Select Destination";
+			sourceTree = "<group>";
+		};
+		F5BEDA2122CB3AFA003A938C /* Cost */ = {
+			isa = PBXGroup;
+			children = (
+				F56BFADB22CCA67400C09EDF /* TravelCostPage.swift */,
+				F5BEDA2A22CBA555003A938C /* SelectKindBar.swift */,
+				F56F816422E7D8300071B09E /* MapView.swift */,
+				F5CE396722CC9FC9001C1E12 /* Takhfif_OptionsBar.swift */,
+				F5FED76822E772A800EFCF1F /* TopBar3.swift */,
+				F5BBB32022CDB49E00FA98F6 /* GreenButton.swift */,
+				F56BFAD922CCA30500C09EDF /* DarkhastSnappBar.swift */,
+				F56BFADD22CCA71400C09EDF /* CostBottom.swift */,
+			);
+			path = Cost;
+			sourceTree = "<group>";
+		};
+		F5C9CA2922CA367100C3A646 = {
+			isa = PBXGroup;
+			children = (
+				F515E37222E09B4000B0BBBD /* Assets.xcassets */,
+				F5C9CA3422CA367100C3A646 /* Snapp_Challenge */,
+				F5C9CA3322CA367100C3A646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C9CA3322CA367100C3A646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9CA3222CA367100C3A646 /* Snapp_Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C9CA3422CA367100C3A646 /* Snapp_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9CA3522CA367100C3A646 /* AppDelegate.swift */,
+				F5C9CA3722CA367100C3A646 /* SceneDelegate.swift */,
+				F55595D822CD10E7004589E1 /* Recources */,
+				F5BEDA2122CB3AFA003A938C /* Cost */,
+				F5BEDA2022CB3AE1003A938C /* Select Destination */,
+				F5C9CA5922CA36CD00C3A646 /* Select Origin */,
+				F5C9CA4022CA367300C3A646 /* LaunchScreen.storyboard */,
+				F5C9CA4322CA367300C3A646 /* Info.plist */,
+				F5C9CA3D22CA367300C3A646 /* Preview Content */,
+			);
+			path = Snapp_Challenge;
+			sourceTree = "<group>";
+		};
+		F5C9CA3D22CA367300C3A646 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9CA3E22CA367300C3A646 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5C9CA5922CA36CD00C3A646 /* Select Origin */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9FD6722E3AD1B00F0D6FD /* Origin.swift */,
+				F5C9CA5422CA36B800C3A646 /* SelectOrigin.swift */,
+				F593780F22E43590007B2024 /* OriginMap&Pin.swift */,
+				F59DC90622DCEA50002EC408 /* OriginPin.swift */,
+				F51B4ED822CFE0D500D1247E /* OriginMap.swift */,
+				F5C9CA5C22CA375400C3A646 /* CurrentLocation.swift */,
+				F5BEDA1C22CB27B0003A938C /* TopBar.swift */,
+				F5BEDA1E22CB2842003A938C /* BottomBar.swift */,
+			);
+			path = "Select Origin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C9CA3122CA367100C3A646 /* Snapp_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C9CA4622CA367300C3A646 /* Build configuration list for PBXNativeTarget "Snapp_Challenge" */;
+			buildPhases = (
+				F5C9CA2E22CA367100C3A646 /* Sources */,
+				F5C9CA2F22CA367100C3A646 /* Frameworks */,
+				F5C9CA3022CA367100C3A646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapp_Challenge;
+			productName = Snapp_Challenge;
+			productReference = F5C9CA3222CA367100C3A646 /* Snapp_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C9CA2A22CA367100C3A646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ali;
+				TargetAttributes = {
+					F5C9CA3122CA367100C3A646 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F5C9CA2D22CA367100C3A646 /* Build configuration list for PBXProject "Snapp_Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C9CA2922CA367100C3A646;
+			productRefGroup = F5C9CA3322CA367100C3A646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C9CA3122CA367100C3A646 /* Snapp_Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C9CA3022CA367100C3A646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A57E0622E0AEE80041BEB4 /* LaunchScreen.storyboard in Resources */,
+				F515E37322E09B4000B0BBBD /* Assets.xcassets in Resources */,
+				F554625222DE6DBB00B9AD87 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C9CA2E22CA367100C3A646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9CA5D22CA375400C3A646 /* CurrentLocation.swift in Sources */,
+				F5FED76922E772A800EFCF1F /* TopBar3.swift in Sources */,
+				F51B4ED922CFE0D500D1247E /* OriginMap.swift in Sources */,
+				F5C3662F22CFB5EF00E39688 /* TopBar2.swift in Sources */,
+				F5C3662D22CFB44F00E39688 /* FavouriteItem.swift in Sources */,
+				F5C3662922CFAD7000E39688 /* FavouritesBar.swift in Sources */,
+				F56BFADA22CCA30500C09EDF /* DarkhastSnappBar.swift in Sources */,
+				F56F816522E7D8300071B09E /* MapView.swift in Sources */,
+				F5BEDA1F22CB2842003A938C /* BottomBar.swift in Sources */,
+				F5C3662722CFABE100E39688 /* BottomBar2.swift in Sources */,
+				F593781022E43590007B2024 /* OriginMap&Pin.swift in Sources */,
+				F59DC90B22DD00FF002EC408 /* DestinationMap.swift in Sources */,
+				F5C9CA3622CA367100C3A646 /* AppDelegate.swift in Sources */,
+				F5C9CA5622CA36B800C3A646 /* SelectOrigin.swift in Sources */,
+				F5C9CA3822CA367100C3A646 /* SceneDelegate.swift in Sources */,
+				F5BEDA1D22CB27B0003A938C /* TopBar.swift in Sources */,
+				F5C9FD6822E3AD1B00F0D6FD /* Origin.swift in Sources */,
+				F597D15822CFBFBC00825048 /* DestinationPin.swift in Sources */,
+				F5BEDA2B22CBA555003A938C /* SelectKindBar.swift in Sources */,
+				F59DC90922DD00EE002EC408 /* DestinationMapAndPin.swift in Sources */,
+				F5BBB32122CDB49E00FA98F6 /* GreenButton.swift in Sources */,
+				F56BFADE22CCA71400C09EDF /* CostBottom.swift in Sources */,
+				F59DC90722DCEA50002EC408 /* OriginPin.swift in Sources */,
+				F518313622E5051D00ED7363 /* Destination.swift in Sources */,
+				F5CE396822CC9FC9001C1E12 /* Takhfif_OptionsBar.swift in Sources */,
+				F56BFADC22CCA67400C09EDF /* TravelCostPage.swift in Sources */,
+				F55595D722CD1035004589E1 /* Datas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5C9CA4022CA367300C3A646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C9CA4122CA367300C3A646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C9CA4422CA367300C3A646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C9CA4522CA367300C3A646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C9CA4722CA367300C3A646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Snapp_Challenge/Preview\\ Content Assets.xcassets";
+				DEVELOPMENT_TEAM = XYY68H4963;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Snapp_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Alireza.Snapp-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5C9CA4822CA367300C3A646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Snapp_Challenge/Preview\\ Content Assets.xcassets";
+				DEVELOPMENT_TEAM = XYY68H4963;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Snapp_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Alireza.Snapp-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C9CA2D22CA367100C3A646 /* Build configuration list for PBXProject "Snapp_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9CA4422CA367300C3A646 /* Debug */,
+				F5C9CA4522CA367300C3A646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C9CA4622CA367300C3A646 /* Build configuration list for PBXNativeTarget "Snapp_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C9CA4722CA367300C3A646 /* Debug */,
+				F5C9CA4822CA367300C3A646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C9CA2A22CA367100C3A646 /* Project object */;
+}
